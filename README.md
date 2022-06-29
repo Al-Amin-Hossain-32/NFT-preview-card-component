@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/nft-preview-card-component-zjB9ugrnUm))
 - Live Site URL: [Add live site URL here](https://alaminhossain-nft-previe-card-component-fronendmentor.netlify.app/)
 
 ## My process
