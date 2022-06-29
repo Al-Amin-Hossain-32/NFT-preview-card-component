@@ -14,7 +14,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/Screenshot.png)
 
 ### Links
 
@@ -78,9 +78,8 @@ But I could solve css problem in a short time which i will face.
 ## Author
 
 - Website - [Al Amin Hossain Abir](http://mutaminnas.blogspot.com/)
-- Frontend Mentor - [@Al-Amin-Hossain-32](https://www.frontendmentor.io/profile/Al-Amin-Hossain-32)
+- Frontend Mentor - [@Al-Amin-Hossain](https://www.frontendmentor.io/profile/Al-Amin-Hossain-32)
 - Twitter - [Al Amin Hossain Abir](https://twitter.com/AlAminH30952334)
 
 
-## Acknowledgments
 
