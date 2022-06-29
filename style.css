@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: outfit;
+}
+a{
+    color: cyan;
+    text-decoration: none;
+}
+h2{
+    font-weight: 600;
+    font-size: 22px;
+}
+h2,span{
+    color: hsl(0, 0%, 100%);
+}
+h3{
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+ width: 325px;
+ background-color: hsl(216, 50%, 16%);
+ /* height: 600px; */
+ margin-top: 20px;
+ padding: 15px;
+ border-radius: 10px;
+}
+.card__element{
+    /* padding: 5px; */
+    margin: 0px auto;
+    width:100%;
+
+}
+.card__element__image{
+    width: 100%;
+    position: relative;
+}
+.card_image{
+    width: 100%;
+    border-radius: 8px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    /* color: hsl(178, 100%, 50%); */
+}
+
+.card__element__text{
+
+}
+.card__element__time{
+    display: flex;
+    justify-content:space-between;
+    margin: 8px 0;
+    align-items:baseline;
+    margin: 10px 0px;
+}
+.text_head{
+    margin-bottom: 10px;
+}
+.time_left,.time_right{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    gap: 4px;
+    /* align-items: ; */
+
+}
+/* .time_right p{
+    display: inline-block;
+} */
+.hr{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    font-weight: 300;
+    opacity: .2;
+    background-color: hsl(0, 0%, 100%);
+}
+.card__element__avatar{
+display: flex;
+align-items: center;
+margin-top: 8px;
+}
+.avatar_image{
+width: 30px;
+border: 1px solid hsl(0, 0%, 100%);
+border-radius: 50%;
+margin-right: 10px;
+}
+.footer__area{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ============ hover effect ===== */
+.card_image:hover{
+    filter: opacity(0.5) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+    cursor: pointer;
+    transition: 2sec;
+
+}
+h2:hover{
+    
+}
+.text_head:hover{
+    color: cyan;
+    cursor: pointer;
+}
+span:hover{
+    color: cyan;
+    cursor: pointer;
+}
